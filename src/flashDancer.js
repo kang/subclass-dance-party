@@ -1,4 +1,4 @@
-var makeFlashDancer = function(top, left, timeBetweenSteps){
+var flashDancer = function(top, left, timeBetweenSteps){
   var FlashDancer = makeDancer(top, left, timeBetweenSteps);
 
   // we plan to overwrite the step function below, but we still want the superclass step behavior to work,
@@ -17,3 +17,4 @@ var makeFlashDancer = function(top, left, timeBetweenSteps){
 
   return FlashDancer;
 };
+
